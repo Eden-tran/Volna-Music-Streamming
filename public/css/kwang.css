@@ -1,0 +1,63 @@
+/* by kwang */
+:root {
+    --primary: #25a56a;
+    --white: #ffffff;
+  }
+.msg{
+    text-align: center;
+    display: inline-block;
+    /* padding: 10px; */
+    margin-bottom: 25px;
+}
+.player__cover img{
+    height: 90px;
+}
+input[type="file"] {
+    display: none;
+}
+.artist__cover img{
+    /* width: 124px; */
+    height: 124px;
+}
+.main__table-img img{
+    height: 80px;
+}
+.album__cover img {
+    /* width: 124px; */
+    height: 124px;
+}
+.single-item__cover img{
+    height: 48px;
+}
+.article__artist img{
+    height: 200px;
+}
+.btnAdd{
+    width: auto;
+    height: 50px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    float:right;
+    padding:10px
+}
+.addCustom{
+    width: 100%;
+
+}
+.albumAbout {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #c0c0c0;
+}
+
+#my_avtlabel {
+    color: white;
+    background-color: var(--primary);;
+    height: 20px;
+    width: 60px;
+}
+
+
+/* by kwang */

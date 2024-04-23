@@ -1,0 +1,22 @@
+
+- limit release và artist ở trang homepage
+- phân trang cho trang edit 
+- sửa js phần audio select += bị lỗi 
+- sửa lại model addsong s2,s3 như nhau up song trong album lấy avatar của album;
+- Tích hợp CKEDITOR vào module album (add/edit) 
+- Chuyển var table tại các model thành private cho bảo mật 
+
+---------------- (CHECK√)---------------- 
+- sửa thẻ img tại phần artist(CHECK√)
+- sửa getAlbumList trong user bị lỗi getAll(CHECK√)
+- img default không được xóa khỏi hệ thống khi delete bài hát hoặc album (CHECK√)
+- thêm thư việc ckeditor (CHECK√)
+- báo lỗi msg (CHECK√)
+- làm nút dẫn vào album-upload ( CHECK √)
+- tài khoản nào cũng edit album/song được; :v check sessionId!=userId -> denied (CHECK√)
+- xử lý khi bấm vào trang artist ra artist ID
+-sửa getlistWithId cho truyền ID hiện tại là tự động lấy sessionId; (CHECK√)
+- xử lý LIMIT CHO GETSONG AND GETLIST (CHECK√)
+- Đã xong phần filter Ajax tại trang release CHECK√)
+---------------
+đang làm tới getListByGenres 8/11/22
